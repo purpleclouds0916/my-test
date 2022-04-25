@@ -41,6 +41,7 @@
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
   },
+  "engines": { "node": "16.0.0" },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -97,10 +98,6 @@
     "stylelint-config-standard": "^25.0.0",
     "stylelint-config-standard-scss": "^3.0.0",
     "stylelint-order": "^5.0.0"
-  },
-  "simple-git-hooks": {
-    "pre-commit": ". ./lint-staged-around",
-    "pre-push": ". ./test-around"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
